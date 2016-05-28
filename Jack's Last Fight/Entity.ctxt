@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Entity(int,\ int)
+comment1.params=
+comment1.target=void\ update()
+comment2.params=
+comment2.target=java.awt.Rectangle\ getRekt()
+comment3.params=
+comment3.target=char\ getDirection()
+comment4.params=g2d
+comment4.target=void\ draw(java.awt.Graphics2D)
+numComments=5

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Enemy(int,\ int)
+comment1.params=
+comment1.target=void\ update()
+comment2.params=player
+comment2.target=void\ move(Player)
+comment2.text=\ \ \ \ \ \ \ \r\n\ \ \ \ public\ boolean\ isDead()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ if(this.rekt.intersects(bullet.getRekt()))\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ dead\ \=\ true;\r\n\ \ \ \ \ \ \ \ }\r\n\r\n\ \ \ \ \ \ \ \ return\ dead;\r\n\ \ \ \ }\r\n\r\n\ \ \ \ public\ void\ collide(Entity\ enemy)\r\n\ \ \ \ {\r\n\r\n\ \ \ \ \ \ \ \ if(enemy\ instanceof\ Enemy)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(this.rekt.intersects(enemy.getRekt()))\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ velX-\=5;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ if(enemy\ instanceof\ Bullet)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(enemy.getDirection()\ \=\=\ 'N')\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ velY\ +\=\ 4;\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(enemy.getDirection()\ \=\=\ 'S')\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ velY\ +\=\ -4;\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(enemy.getDirection()\ \=\=\ 'E')\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ velX\ +\=\ -4;\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(enemy.getDirection()\ \=\=\ 'W')\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ velX\ +\=\ 4;\ \r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n
+comment3.params=g2d
+comment3.target=void\ draw(java.awt.Graphics2D)
+numComments=4

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=x\ y
+comment0.target=Player(int,\ int)
+comment1.params=
+comment1.target=void\ update()
+comment2.params=
+comment2.target=java.util.ArrayList\ getBullets()
+comment3.params=dead
+comment3.target=void\ setDead(boolean)
+comment4.params=
+comment4.target=boolean\ isDead()
+comment5.params=enemy
+comment5.target=void\ detectCollide(Enemy)
+comment6.params=g2d
+comment6.target=void\ draw(java.awt.Graphics2D)
+comment7.params=e
+comment7.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment8.params=e
+comment8.target=void\ keyReleased(java.awt.event.KeyEvent)
+numComments=9
